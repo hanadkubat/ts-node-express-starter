@@ -13,9 +13,9 @@ import cors from 'cors';
 import debug from 'debug';
 import helmet from 'helmet';
 
-import { CommonRoutesConfig } from './common/common.routes.config';
-import { UsersRoutes } from './users/users.routes.config';
-import { AuthRoutes } from './auth/auth.routes.config';
+import { CommonRoutesConfig } from './src/common/common.routes.config';
+import { UsersRoutes } from './src/users/users.routes.config';
+import { AuthRoutes } from './src/auth/auth.routes.config';
 
 import swaggerUi from 'swagger-ui-express';
 import swaggerDocument from './swagger-output.json';

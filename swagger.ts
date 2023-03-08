@@ -11,8 +11,8 @@ const doc = {
 
 const outputFile = './swagger-output.json';
 const endpointsFiles = [
-  './users/users.routes.config.ts',
-  './auth/auth.routes.config.ts',
+  './src/users/users.routes.config.ts',
+  './src/auth/auth.routes.config.ts',
 ];
 
 /* NOTE: if you use the express Router, you must pass in the 
