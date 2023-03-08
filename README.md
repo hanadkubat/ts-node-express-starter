@@ -10,16 +10,15 @@
 
 - Prerequisites:
   1. Node 16+ LTS
-  2. yarn
-  3. Docker 20.10 (make sure the service is running)
+  2. Docker 20.10 (make sure the service is running)
 
 - Summary of set up (Make sure you are in the root folder)
 
   ```bash
   cp example.env .env ## update .env with correct settings.
-  yarn install
+  npm install
   sudo docker-compose up -d
-  yarn debug
+  npm debug
   ```
 
 ## DB
